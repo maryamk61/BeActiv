@@ -3,7 +3,48 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #1 in DetailOverlay.body.getter:DetailsView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "activity.weeklyGoal">
+            </PersistentString>
+            <PersistentString
+               value = "activity">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in HealthKitManager.requestTodayHealthInfoAsync(by:):HealthKitManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in ReportCard.body.getter:ChartsView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in HomeViewModel.getTodayAllHealthInfo():HomeViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ChartViewModel.getAllStats(startDate:):ChartsViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in HealthKitManager.requestTodayAllHealthInfo():HealthKitManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HealthKitManager.requestTodayAllHealthInfo():HealthKitManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #4 in DetailsView.body.getter:DetailsView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in HomeView.body.getter:HomeView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in HomeViewModel.init():HomeViewModel.swift">
+      </ContextState>
+      <ContextState
          contextName = "CircleShape.path(in:):DetailsView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in HomeView.body.getter:HomeView.swift">
       </ContextState>
       <ContextState
          contextName = "closure #1 in HealthKitManager.requestTodayHealthInfo(by:completion:):HealthKitManager.swift">
@@ -12,9 +53,6 @@
                value = "UserDefaults.standard">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in closure #4 in DetailsView.body.getter:DetailsView.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

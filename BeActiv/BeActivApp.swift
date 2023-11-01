@@ -9,8 +9,7 @@ import SwiftUI
 
 @main
 struct BeActivApp: App {
-//    @StateObject var hKmanager = HealthKitManager()
-    @StateObject var homeViewModel = HomeViewModel()
+//    @StateObject var homeViewModel = HomeViewModel()
     
     init() {
         UITabBar.appearance().backgroundColor = UIColor.white.withAlphaComponent(0.8)
@@ -26,7 +25,7 @@ struct BeActivApp: App {
     var body: some Scene {
         WindowGroup {
             ActivityTabView()
-                .environmentObject(homeViewModel)
+//                .environmentObject(homeViewModel)
         }
     }
 }

@@ -9,8 +9,6 @@ import SwiftUI
 import HealthKit
 
 struct ChartsView: View {
-//    @EnvironmentObject var manager: HealthKitManager
-//    @State private var report: String = "Weekly"
     @StateObject private var vm = ChartViewModel()
   
     var body: some View {
@@ -48,7 +46,7 @@ struct ChartsView: View {
                 RadialGradient(colors: [Color("backgroundColorTop"), Color("backgroundColorBottom")], center: .topTrailing, startRadius: 80, endRadius: 900)
             }
             .task {
-                await vm.getAllStats(startDate: Date.oneWeekBefore)
+                await vm.getAllStatsForWeek()
             }
         }
     }
@@ -98,6 +96,5 @@ struct ReportCard: View {
 struct ChartsView_Previews: PreviewProvider {
     static var previews: some View {
         ChartsView()
-            .environmentObject(HealthKitManager())
     }
 }

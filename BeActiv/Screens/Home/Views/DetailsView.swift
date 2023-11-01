@@ -79,16 +79,19 @@ struct DetailOverlay: View {
                 .foregroundColor(.white)
             Text("Today")
                 .foregroundColor(Color("lightGray"))
-            Text("Goal: \(activity.id == "distanceWalkingRunning" ?  "\(activity.weeklyGoal.round(to: 2))": activity.weeklyGoal.formatted(.number))")
+            Text("Goal: \(activity.id == "distanceWalkingRunning" ?  "\(getGoal().round(to: 2))": getGoal().formatted(.number))")
                 .bold()
                 .foregroundColor(Color("lightGray"))
         }
+    }
+    
+    func getGoal() -> Double{
+        return UserDefaults.standard.double(forKey: activity.id)
     }
 }
 
 struct DetailsView_Previews: PreviewProvider {
     static var previews: some View {
         DetailsView(activity: ActivityModel.mockActivity)
-            .environmentObject(HealthKitManager())
     }
 }

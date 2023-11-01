@@ -11,7 +11,7 @@ struct GoalsView: View {
     @AppStorage("stepCount") var stepCount = 1000
     @AppStorage("activeEnergyBurned") var activeEnergyBurned = 500
     @AppStorage("appleExerciseTime") var appleExerciseTime = 30
-    @AppStorage("distanceWalkingRunning") var distanceWalkingRunning: Double = 1.0
+    @AppStorage("distanceWalkingRunning") var distanceWalkingRunning = 1.0
    
     var body: some View {
         

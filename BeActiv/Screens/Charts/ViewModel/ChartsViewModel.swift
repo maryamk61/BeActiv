@@ -20,14 +20,25 @@ class ChartViewModel: ObservableObject {
     }()
     
     init() {
+        requestAuthorization()
     }
     
-    func getAllStats(startDate: Date) async -> Void {
-        let results = await manager.requestAllHealthInfo(startDate: startDate)
+    func getAllStatsForWeek() async  {
+        let results = await manager.requestAllHealthInfo(startDate: Date.oneWeekBefore)
         DispatchQueue.main.async {
             self.statsCollections = results
         }
        
+    }
+    
+    func requestAuthorization() {
+        manager.requestAuthorization { success in
+            if success {
+                Task {
+                    await self.getAllStatsForWeek()
+                }
+            }
+        }
     }
 }
 

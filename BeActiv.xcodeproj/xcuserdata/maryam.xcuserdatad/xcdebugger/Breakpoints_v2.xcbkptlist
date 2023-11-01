@@ -23,38 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E05D7E76-1655-4D7C-A912-FEBA3BB0A919"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "init()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C951F082-0272-4BD8-AFCF-0F8F5FECE33F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "init()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2B0441B5-E219-4D52-933C-06C6DD17DB9E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -78,8 +46,8 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "requestHealthInfo(by:startDate:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +62,8 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "requestAuthorization(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +78,8 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "requestAuthorization(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,55 +94,55 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "requestHealthInfo(by:startDate:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "49D271C9-F99C-4979-A2B4-D2C4875CF8A8 - eece1ca65a14c65f"
+                  uuid = "49D271C9-F99C-4979-A2B4-D2C4875CF8A8 - 2621e97b588387d4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "BeActiv.HealthKitManager.requestHealthInfo(by: Swift.String, completion: (Swift.Array&lt;BeActiv.StatusModel&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "BeActiv.HealthKitManager.requestHealthInfo(by: Swift.String, startDate: Foundation.Date, completion: (Swift.Array&lt;BeActiv.StatusModel&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "BeActiv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "648">
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "600">
                </Location>
                <Location
-                  uuid = "49D271C9-F99C-4979-A2B4-D2C4875CF8A8 - eece1ca65a14c65f"
+                  uuid = "49D271C9-F99C-4979-A2B4-D2C4875CF8A8 - 2621e97b588387d4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "BeActiv.HealthKitManager.requestHealthInfo(by: Swift.String, completion: (Swift.Array&lt;BeActiv.StatusModel&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "BeActiv.HealthKitManager.requestHealthInfo(by: Swift.String, startDate: Foundation.Date, completion: (Swift.Array&lt;BeActiv.StatusModel&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "BeActiv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "688">
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "640">
                </Location>
                <Location
-                  uuid = "49D271C9-F99C-4979-A2B4-D2C4875CF8A8 - eece1ca65a14c65f"
+                  uuid = "49D271C9-F99C-4979-A2B4-D2C4875CF8A8 - 2621e97b588387d4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "BeActiv.HealthKitManager.requestHealthInfo(by: Swift.String, completion: (Swift.Array&lt;BeActiv.StatusModel&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "BeActiv.HealthKitManager.requestHealthInfo(by: Swift.String, startDate: Foundation.Date, completion: (Swift.Array&lt;BeActiv.StatusModel&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "BeActiv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "872">
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "816">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -189,25 +157,9 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "requestHealthInfo(by:startDate:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1DF86080-4C88-4986-BEBD-F0E18CAC7818"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
-            landmarkName = "requestTodayAllHealthInfo()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -221,10 +173,10 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "requestTodayHealthInfo(by:completion:)"
-            landmarkType = "7">
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -237,10 +189,10 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "requestTodayHealthInfo(by:completion:)"
-            landmarkType = "7">
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -253,74 +205,10 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "requestTodayHealthInfo(by:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BB11C68F-D11A-4A03-9231-0B0A5D22107E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
-            landmarkName = "requestTodayAllHealthInfo()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "72E74235-4076-450C-A169-197AE3A062F5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
-            landmarkName = "requestTodayAllHealthInfo()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6F700958-1CE2-4581-9367-A8E5A6EF7BAF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
-            landmarkName = "requestTodayAllHealthInfo()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CEC2270C-2B02-4136-8AEA-392A7D07106D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "159"
-            endingLineNumber = "159"
-            landmarkName = "requestTodayAllHealthInfo()"
-            landmarkType = "7">
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -333,10 +221,10 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
-            landmarkName = "requestTodayHealthInfo(by:completion:)"
-            landmarkType = "7">
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -374,114 +262,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AB93D4C9-CF86-4A41-90B3-DFE87CBEA614"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "164"
-            endingLineNumber = "164"
-            landmarkName = "requestTodayAllHealthInfo()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AB93D4C9-CF86-4A41-90B3-DFE87CBEA614 - 66202420bf87b961"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(11) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "164"
-                  endingLineNumber = "164"
-                  offsetFromSymbolStart = "1224">
-               </Location>
-               <Location
-                  uuid = "AB93D4C9-CF86-4A41-90B3-DFE87CBEA614 - b3afc33843171860"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(12) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "164"
-                  endingLineNumber = "164"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "AB93D4C9-CF86-4A41-90B3-DFE87CBEA614 - 99377a31e6a76630"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(13) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "159"
-                  endingLineNumber = "159"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "AB93D4C9-CF86-4A41-90B3-DFE87CBEA614 - 99377a31e6a7676f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(13) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "164"
-                  endingLineNumber = "164"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  uuid = "AB93D4C9-CF86-4A41-90B3-DFE87CBEA614 - cb00cb9cd3b81960"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(21) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "164"
-                  endingLineNumber = "164"
-                  offsetFromSymbolStart = "132">
-               </Location>
-               <Location
-                  uuid = "AB93D4C9-CF86-4A41-90B3-DFE87CBEA614 - fd14155470fe0faa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;BeActiv.ActivityModel&gt;) -&gt; Swift.Optional&lt;BeActiv.ActivityModel&gt; in BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "164"
-                  endingLineNumber = "164"
-                  offsetFromSymbolStart = "144">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "CC5490E1-1354-4D80-885E-B0E142B4CC6B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -489,10 +269,10 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
-            landmarkName = "requestTodayHealthInfoAsync(by:)"
-            landmarkType = "7">
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -537,10 +317,10 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "requestTodayHealthInfo(by:completion:)"
-            landmarkType = "7">
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -557,6 +337,38 @@
             endingLineNumber = "82"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B960F44C-33B5-4CBC-A83D-D4FB02CE8F13 - f2a6c8d430220075"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text, SwiftUI.Text)&gt; in BeActiv.DetailOverlay.body.getter : some"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/Views/DetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1424">
+               </Location>
+               <Location
+                  uuid = "B960F44C-33B5-4CBC-A83D-D4FB02CE8F13 - f2a6c8d430220075"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text, SwiftUI.Text)&gt; in BeActiv.DetailOverlay.body.getter : some"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/Views/DetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1468">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -569,10 +381,10 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
-            landmarkName = "requestTodayHealthInfo(by:completion:)"
-            landmarkType = "7">
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -626,114 +438,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3DE63168-4AF6-4DB2-8889-5C96793CDFB6"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "requestAllHealthInfo(startDate:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3DE63168-4AF6-4DB2-8889-5C96793CDFB6 - 2e52554d187278ac"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(11) suspend resume partial function for BeActiv.HealthKitManager.requestAllHealthInfo(startDate: Foundation.Date) async -&gt; Swift.Dictionary&lt;Swift.String, Swift.Array&lt;BeActiv.StatusModel&gt;&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "976">
-               </Location>
-               <Location
-                  uuid = "3DE63168-4AF6-4DB2-8889-5C96793CDFB6 - 28871c381f3c1ba3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(12) suspend resume partial function for BeActiv.HealthKitManager.requestAllHealthInfo(startDate: Foundation.Date) async -&gt; Swift.Dictionary&lt;Swift.String, Swift.Array&lt;BeActiv.StatusModel&gt;&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "3DE63168-4AF6-4DB2-8889-5C96793CDFB6 - 2aebcb170586b589"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(13) suspend resume partial function for BeActiv.HealthKitManager.requestAllHealthInfo(startDate: Foundation.Date) async -&gt; Swift.Dictionary&lt;Swift.String, Swift.Array&lt;BeActiv.StatusModel&gt;&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "3DE63168-4AF6-4DB2-8889-5C96793CDFB6 - 2aebcb170586b6a2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(13) suspend resume partial function for BeActiv.HealthKitManager.requestAllHealthInfo(startDate: Foundation.Date) async -&gt; Swift.Dictionary&lt;Swift.String, Swift.Array&lt;BeActiv.StatusModel&gt;&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  uuid = "3DE63168-4AF6-4DB2-8889-5C96793CDFB6 - dd4fe93355611aa3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(21) suspend resume partial function for BeActiv.HealthKitManager.requestAllHealthInfo(startDate: Foundation.Date) async -&gt; Swift.Dictionary&lt;Swift.String, Swift.Array&lt;BeActiv.StatusModel&gt;&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "208">
-               </Location>
-               <Location
-                  uuid = "3DE63168-4AF6-4DB2-8889-5C96793CDFB6 - 9060bdfa4ce7da99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((key: Swift.String, value: Swift.Array&lt;BeActiv.StatusModel&gt;)) -&gt; Swift.Bool in BeActiv.HealthKitManager.requestAllHealthInfo(startDate: Foundation.Date) async -&gt; Swift.Dictionary&lt;Swift.String, Swift.Array&lt;BeActiv.StatusModel&gt;&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "64">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "4BC5A5FD-08BE-4BF5-B3A4-BCDDFFA8F791"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -741,55 +445,55 @@
             filePath = "BeActiv/Screens/Charts/ViewModel/ChartsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "getAllStats(startDate:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getAllStatsForWeek()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "4BC5A5FD-08BE-4BF5-B3A4-BCDDFFA8F791 - 622a802aa83cc50c"
+                  uuid = "4BC5A5FD-08BE-4BF5-B3A4-BCDDFFA8F791 - a216329ca08ac7e4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for BeActiv.ChartViewModel.getAllStats(startDate: Foundation.Date) async -&gt; ()"
+                  symbolName = "(1) suspend resume partial function for BeActiv.ChartViewModel.getAllStatsForWeek() async -&gt; ()"
                   moduleName = "BeActiv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Charts/ViewModel/ChartsViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "92">
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "80">
                </Location>
                <Location
-                  uuid = "4BC5A5FD-08BE-4BF5-B3A4-BCDDFFA8F791 - aad5aad1d061e005"
+                  uuid = "4BC5A5FD-08BE-4BF5-B3A4-BCDDFFA8F791 - 5c3bd2d8b1d5d2f7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for BeActiv.ChartViewModel.getAllStats(startDate: Foundation.Date) async -&gt; ()"
+                  symbolName = "(2) await resume partial function for BeActiv.ChartViewModel.getAllStatsForWeek() async -&gt; ()"
                   moduleName = "BeActiv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Charts/ViewModel/ChartsViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
                   offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  uuid = "4BC5A5FD-08BE-4BF5-B3A4-BCDDFFA8F791 - 5b70fb54e3ee090e"
+                  uuid = "4BC5A5FD-08BE-4BF5-B3A4-BCDDFFA8F791 - bd381c459d2609e6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for BeActiv.ChartViewModel.getAllStats(startDate: Foundation.Date) async -&gt; ()"
+                  symbolName = "(3) suspend resume partial function for BeActiv.ChartViewModel.getAllStatsForWeek() async -&gt; ()"
                   moduleName = "BeActiv"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Charts/ViewModel/ChartsViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "52">
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "148">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -804,8 +508,8 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "requestHealthInfoAsync(by:startDate:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -820,8 +524,8 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "requestAllHealthInfo(startDate:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -836,42 +540,10 @@
             filePath = "BeActiv/Screens/Charts/Views/ChartsView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "body"
             landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EA537AA3-A618-4083-B022-DBF92D30CD3D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "requestHealthInfo(by:startDate:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "246F2AE2-3DC8-4EC6-83E1-930A79B4995E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Managers/HealthKitManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "requestTodayHealthInfo(by:completion:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -884,8 +556,8 @@
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "requestHealthInfo(by:startDate:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -916,8 +588,8 @@
             filePath = "BeActiv/Screens/Home/Views/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -932,8 +604,8 @@
             filePath = "BeActiv/Screens/Home/Views/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -966,54 +638,6 @@
                   startingLineNumber = "29"
                   endingLineNumber = "29"
                   offsetFromSymbolStart = "488">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "62A21446-06AF-4657-A5E8-E2882D5D6080"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Screens/Home/Views/HomeView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "62A21446-06AF-4657-A5E8-E2882D5D6080 - fe9c274ba109b5cd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (BeActiv.ActivityModel) -&gt; SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, BeActiv.DetailsView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;BeActiv.ActivityModel&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, BeActiv.DetailsView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;BeActiv.ActivityModel&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, BeActiv.DetailsView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.shadow(color: SwiftUI.Color, radius: CoreGraphics.CGFloat, x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.shadow(color: SwiftUI.Color, radius: CoreGraphics.CGFloat, x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in BeActiv.HomeView.body.getter : some"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/Views/HomeView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "328">
-               </Location>
-               <Location
-                  uuid = "62A21446-06AF-4657-A5E8-E2882D5D6080 - 2fdfc30096f1ac56"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; BeActiv.DetailsView in closure #1 (BeActiv.ActivityModel) -&gt; SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, BeActiv.DetailsView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;BeActiv.ActivityModel&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, BeActiv.DetailsView&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;BeActiv.ActivityModel&gt;, Swift.String, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, BeActiv.DetailsView&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.shadow(color: SwiftUI.Color, radius: CoreGraphics.CGFloat, x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.shadow(color: SwiftUI.Color, radius: CoreGraphics.CGFloat, x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in BeActiv.HomeView.body.getter : some"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/Views/HomeView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "92">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1060,8 +684,8 @@
             filePath = "BeActiv/Screens/Charts/Views/ChartsView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -1070,95 +694,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C9C38A4E-BEE1-4769-8F5E-23534A648865"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BeActiv/Screens/Charts/Views/ChartsView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "getData()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A452BE8E-9B64-445A-BA48-A908CCB6B36D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "getTodayAllHealthInfo()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D07492C5-187A-4927-A95E-7FF67A443F1E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BeActiv/Screens/Home/Views/HomeView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "D07492C5-187A-4927-A95E-7FF67A443F1E - 7db4e9055bd1aa93"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in BeActiv.HomeView.body.getter : some"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/Views/HomeView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "76">
-               </Location>
-               <Location
-                  uuid = "D07492C5-187A-4927-A95E-7FF67A443F1E - 850e81d9b5e03678"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in BeActiv.HomeView.body.getter : some"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/Views/HomeView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "D07492C5-187A-4927-A95E-7FF67A443F1E - 7befa87fe38ee91"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in BeActiv.HomeView.body.getter : some"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/Views/HomeView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "28">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1171,9 +716,9 @@
             filePath = "BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "init()"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init(manager:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1203,8 +748,8 @@
             filePath = "BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "getTodayAllHealthInfo()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1212,182 +757,142 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867"
-            shouldBeEnabled = "Yes"
+            uuid = "655A4077-F26B-4146-87FF-39B9AA874710"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
-            landmarkName = "requestTodayAllHealthInfo()"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "008C9DFF-0845-4108-86DD-BF19AB717C28"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Managers/HealthKitManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44FBEF88-AFBF-45BE-9FF3-506437F08C62"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Utils/HKQuantityHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getValue(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E88CD44-DD26-4F0B-B369-9442A7188AAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "init(manager:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9CD23BA-F393-4165-9451-C1BF29871066"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Screens/Home/Views/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4972A37-ECBB-4D7B-BC1F-2CC9D931CDA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getTodayAllHealthInfo()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - d869cbc818b43632"
+                  uuid = "F4972A37-ECBB-4D7B-BC1F-2CC9D931CDA5 - 2f112b7028e67f60"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BeActiv.HomeViewModel.getTodayAllHealthInfo() -&gt; ()"
                   moduleName = "BeActiv"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "304">
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "76">
                </Location>
                <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - 80d47b8b58c29733"
+                  uuid = "F4972A37-ECBB-4D7B-BC1F-2CC9D931CDA5 - f71b1674191925ca"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(2) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in BeActiv.HomeViewModel.getTodayAllHealthInfo() -&gt; ()"
                   moduleName = "BeActiv"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "20">
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - 49b6eb4a9951f430"
+                  uuid = "F4972A37-ECBB-4D7B-BC1F-2CC9D931CDA5 - 598247a0ebd8036a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BeActiv.HomeViewModel.getTodayAllHealthInfo() -&gt; ()"
                   moduleName = "BeActiv"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - 721194f5d9e05531"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - 3afc04b71a6eb236"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(5) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - e35eb4765afd1337"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(6) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - a43924319b0c7034"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(7) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - 6c9bd5f0db9ad135"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(8) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - 154645b21c293e2a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(9) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - 18588d2b1c785bff"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(10) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  uuid = "8A56AC4B-8C08-4150-9DCF-86A2F592C867 - 66202420bf87b8fc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(11) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
-                  moduleName = "BeActiv"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "161"
-                  endingLineNumber = "161"
-                  offsetFromSymbolStart = "124">
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "36">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1395,7 +900,87 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "655A4077-F26B-4146-87FF-39B9AA874710"
+            uuid = "39D08DE4-3510-4329-8D53-C9CD1719A068"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getTodayAllHealthInfo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "39D08DE4-3510-4329-8D53-C9CD1719A068 - 598247a0ebd8036a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BeActiv.HomeViewModel.getTodayAllHealthInfo() -&gt; ()"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "39D08DE4-3510-4329-8D53-C9CD1719A068 - be6980fb383a6aba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in BeActiv.HomeViewModel.getTodayAllHealthInfo() -&gt; ()"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Screens/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3D0FC7C-9AB2-43CD-BB1C-D3C0DCFDAE74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/ActivityTabView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AA03E4D-BAC2-43D4-B4D2-609C02B8AF5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Screens/Home/Views/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "init(viewModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C760BC2-C14C-42D4-9BCC-5F762A434A49"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1406,20 +991,52 @@
             endingLineNumber = "146"
             landmarkName = "requestTodayHealthInfoAsync(by:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7C760BC2-C14C-42D4-9BCC-5F762A434A49 - 59aeaa82ae61ab47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BeActiv.HealthKitManager.requestTodayHealthInfoAsync(by: Swift.String) async -&gt; Swift.Optional&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "876">
+               </Location>
+               <Location
+                  uuid = "7C760BC2-C14C-42D4-9BCC-5F762A434A49 - 1375b050db4d4d46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BeActiv.HealthKitManager.requestTodayHealthInfoAsync(by: Swift.String) async -&gt; Swift.Optional&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "896">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "008C9DFF-0845-4108-86DD-BF19AB717C28"
-            shouldBeEnabled = "Yes"
+            uuid = "79E75629-7EFF-48C1-93B2-72518C3A693A"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "requestTodayHealthInfoAsync(by:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1427,17 +1044,543 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "44FBEF88-AFBF-45BE-9FF3-506437F08C62"
+            uuid = "94FCAE58-4727-4FFF-A53D-BCDA87412580"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Managers/HealthKitManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "HealthKitManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A12EC266-0BAB-4CCB-BB44-D5EBB40E309B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BeActiv/Utils/HKQuantityHelper.swift"
+            filePath = "BeActiv/Managers/HealthKitManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "getValue(from:)"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "requestTodayHealthInfoAsync(by:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "586F23D8-11C4-49D3-800F-D6269B1A5A28"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Managers/HealthKitManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "requestTodayHealthInfoAsync(by:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "586F23D8-11C4-49D3-800F-D6269B1A5A28 - 59aeaa82ae61aa4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BeActiv.HealthKitManager.requestTodayHealthInfoAsync(by: Swift.String) async -&gt; Swift.Optional&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "586F23D8-11C4-49D3-800F-D6269B1A5A28 - 1375b050db4d4c4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BeActiv.HealthKitManager.requestTodayHealthInfoAsync(by: Swift.String) async -&gt; Swift.Optional&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA21F3BE-F4AC-48B7-9818-4FE9C83E7A85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Managers/HealthKitManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "requestTodayAllHealthInfo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Managers/HealthKitManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "requestTodayAllHealthInfo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - d869cbc818b435f9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - 80d47b8b58c294f8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - 49b6eb4a9951f7fb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - 721194f5d9e056fa"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - 3afc04b71a6eb1fd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - e35eb4765afd10fc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - a43924319b0c73ff"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - 6c9bd5f0db9ad2fe"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - 154645b21c293de1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - 18588d2b1c785834"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D92DEA62-6E28-4B62-82A3-23E45C623CCC - 66202420bf87bb37"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Managers/HealthKitManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "requestTodayAllHealthInfo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - d869cbc818b43518"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - 80d47b8b58c29419"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - 49b6eb4a9951f71a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - 721194f5d9e0561b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - 3afc04b71a6eb11c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - e35eb4765afd101d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - a43924319b0c731e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - 6c9bd5f0db9ad21f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - 154645b21c293d00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - 18588d2b1c7858d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2ED48CC0-9E6D-4BEE-BAE0-DC5687AA44DE - 66202420bf87bbd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for BeActiv.HealthKitManager.requestTodayAllHealthInfo() async -&gt; Swift.Array&lt;BeActiv.ActivityModel&gt;"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F5C284A-C3D1-41F9-BEDB-6B67D9850666"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Screens/Charts/ViewModel/ChartsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getAllStatsForWeek()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE1B3E95-01E1-4753-A308-338F11A7E85D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Managers/HealthKitManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "requestHealthInfo(by:startDate:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5B84E3B-AFD3-490F-852F-B5571281FFA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeActiv/Managers/HealthKitManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "requestHealthInfo(by:startDate:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5B84E3B-AFD3-490F-852F-B5571281FFA1 - 2621e97b5883850e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeActiv.HealthKitManager.requestHealthInfo(by: Swift.String, startDate: Foundation.Date, completion: (Swift.Array&lt;BeActiv.StatusModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1616">
+               </Location>
+               <Location
+                  uuid = "F5B84E3B-AFD3-490F-852F-B5571281FFA1 - ed79c106973c2261"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.HKStatisticsCollectionQuery, Swift.Optional&lt;__C.HKStatisticsCollection&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BeActiv.HealthKitManager.requestHealthInfo(by: Swift.String, startDate: Foundation.Date, completion: (Swift.Array&lt;BeActiv.StatusModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BeActiv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maryam/Swift%20projects/SwiftUI-Tutorial%20projects/BeActiv/BeActiv/Managers/HealthKitManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
