@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #1 in closure #2 in closure #1 in HomeView.body.getter:HomeView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.double(forKey: &quot;stepCount&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in DetailOverlay.body.getter:DetailsView.swift">
          <PersistentStrings>
             <PersistentString
@@ -18,6 +26,14 @@
       </ContextState>
       <ContextState
          contextName = "closure #2 in closure #1 in ReportCard.body.getter:ChartsView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in HomeView.body.getter:HomeView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "vm.activities">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "closure #1 in HomeViewModel.getTodayAllHealthInfo():HomeViewModel.swift">

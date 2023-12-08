@@ -10,7 +10,6 @@ import HealthKit
 
 final class HealthKitManager {
     let store: HKHealthStore?
-//    var isAuthorized: Bool = false
     var statusCollection: [StatusModel] = []
     var todayCollection: [ActivityModel?] = []
     var allStatusCollections: [String: [StatusModel]] = [:]
@@ -34,7 +33,9 @@ final class HealthKitManager {
         
         store.requestAuthorization(toShare: [], read: allTypes) { success, error in
             if let error {
+                #if DEBUG
                 print("Error occured while getting permission: \(error)")
+                #endif
                return
             }
             completion(success)
@@ -55,7 +56,9 @@ final class HealthKitManager {
         
         query.initialResultsHandler  = { [weak self] query, collection , error in
             if let error {
+                #if DEBUG
                 print("Error occured while getting health statistics: \(error)")
+                #endif
                return
             }
             self?.statusCollection.removeAll()
@@ -100,33 +103,6 @@ final class HealthKitManager {
         return allStatusCollections.filter({!$0.value.isEmpty})
     }
     
-//    func requestTodayHealthInfo(by category: String, completion:  @escaping (ActivityModel?, Error?)-> ()) {
-//        guard let store , let type = HKObjectType.quantityType(forIdentifier: getTypeByCategory(category: category)) , isAuthorized  else {
-//            return
-//        }
-//
-//        let predicate = HKQuery.predicateForSamples(withStart: Date.startOfDay, end: Date(),options: .strictStartDate)
-//
-//        let todayQuery = HKStatisticsQuery(quantityType: type, quantitySamplePredicate: predicate, completionHandler: { [weak self] _, statistics, error in
-//            if let error {
-////                print("Error occured while getting today \(category): \(error)")
-//                completion(nil, error)
-//                return
-//            }
-//            guard let sumQuantity = statistics?.sumQuantity() else {
-//              return
-//            }
-////            self?.todayCollection.removeAll()
-//            let activity = ActivityModel(id: category, todayValue: Double(HKQuantityHelper.getValue(from: sumQuantity).value), todayDesc: HKQuantityHelper.getValue(from: sumQuantity).desc, weeklyGoal: UserDefaults.standard.double(forKey: category))
-//            completion(activity, nil)
-//
-//        })
-////        guard let todayQuery else {
-////            return
-////        }
-//        store.execute(todayQuery)
-//    }
-    
     func requestTodayHealthInfoAsync(by category: String) async -> ActivityModel? {
         guard let store , let type = HKObjectType.quantityType(forIdentifier: getTypeByCategory(category: category)) else {
             return nil
@@ -145,18 +121,6 @@ final class HealthKitManager {
         let activity = ActivityModel(id: category, todayValue: Double(HKQuantityHelper.getValue(from: sumQuantity).value), todayDesc: HKQuantityHelper.getValue(from: sumQuantity).desc, weeklyGoal: UserDefaults.standard.double(forKey: category))
         return activity
     }
-    
-//    func requestTodayHealthInfoAsync(by category: String) async -> ActivityModel? {
-//        return await withCheckedContinuation({ continuation in
-//            requestTodayHealthInfo(by: category) { activity, error in
-//                if error != nil {
-//                    continuation.resume(returning: nil)
-//                } else {
-//                    continuation.resume(returning: activity)
-//                }
-//            }
-//        })
-//    }
     
     func requestTodayAllHealthInfo() async -> [ActivityModel] {
         async let stepsResult = requestTodayHealthInfoAsync(by: "stepCount")

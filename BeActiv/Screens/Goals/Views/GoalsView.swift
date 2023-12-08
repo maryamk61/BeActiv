@@ -32,7 +32,7 @@ struct GoalsView: View {
                     Spacer()
                     VStack(spacing: 20) {
                         HStack {
-                            Stepper("👟 Steps", value: $stepCount, step: 100)
+                            Stepper("👟 Steps", value: $stepCount, step: 50)
                                 .font(.headline)
                             Text("\(stepCount)")
                                 .font(.title3).bold()
@@ -42,7 +42,7 @@ struct GoalsView: View {
                         .padding()
                         .background(Color.white.cornerRadius(8))
                         HStack {
-                            Stepper("🔥 Kcal", value: $activeEnergyBurned, step: 100)
+                            Stepper("🔥 Kcal", value: $activeEnergyBurned, step: 50)
                                 .font(.headline)
                             Text("\(activeEnergyBurned)")
                                 .font(.title3).bold()

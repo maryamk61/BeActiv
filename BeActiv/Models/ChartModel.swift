@@ -14,7 +14,7 @@ struct ChartModel {
     let xAxisLabels: [String]
     
     static var mockChart: ChartModel {
-        ChartModel(id:"stepCount", values: [2824, 6649, 1223, 7809, 450, 3402, 12026], labels: ["2824 count", "6649 count", "7809 count", "450 count", "342 count","5974 count", "1226 count"], xAxisLabels: ["sat", "sun", "mon", "tue", "wed", "thu", "fri"])
+        ChartModel(id:"stepCount", values: [824, 649, 1223, 2809, 450, 1402, 2026], labels: ["824 count", "649 count", "1223 count", "2809 count", "450 count","1402 count", "2026 count"], xAxisLabels: ["sat", "sun", "mon", "tue", "wed", "thu", "fri"])
     }
     
     static func getChartTitle(type: String) -> String {

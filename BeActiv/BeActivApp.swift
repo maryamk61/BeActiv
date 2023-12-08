@@ -8,9 +8,7 @@
 import SwiftUI
 
 @main
-struct BeActivApp: App {
-//    @StateObject var homeViewModel = HomeViewModel()
-    
+struct BeActivApp: App {    
     init() {
         UITabBar.appearance().backgroundColor = UIColor.white.withAlphaComponent(0.8)
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(.white)]
@@ -25,7 +23,6 @@ struct BeActivApp: App {
     var body: some Scene {
         WindowGroup {
             ActivityTabView()
-//                .environmentObject(homeViewModel)
         }
     }
 }

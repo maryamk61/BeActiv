@@ -17,14 +17,6 @@ struct ChartsView: View {
                 .ignoresSafeArea()
             VStack {
                 ScrollView {
-                    //                    Picker("", selection: $report) {
-                    //                        Text("Weekly").tag("Weekly")
-                    //                        Text("Monthly").tag("Monthly")
-                    //                    }
-                    //                    .padding(.horizontal, 70)
-                    //                    .padding(.vertical, 20)
-                    //                    .pickerStyle(.segmented)
-                    //                    Spacer()
                     Text("Weekly Report")
                         .font(.title2).bold()
                         .foregroundColor(Color.white)

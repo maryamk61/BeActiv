@@ -11,6 +11,7 @@ import Foundation
 class HomeViewModel: ObservableObject {
     @Published var activities: [ActivityModel] = []
     private var manager : HealthKitManager
+    private var notifManager: LocalNotificationManager = LocalNotificationManager.shared
     
     init(manager: HealthKitManager = HealthKitManager())  {
         if (UserDefaults.standard.object(forKey: "stepCount") == nil) {
@@ -45,5 +46,9 @@ class HomeViewModel: ObservableObject {
                 self.getTodayAllHealthInfo()
             }
         }
+    }
+    
+    func sendNotification(title: String) {
+        notifManager.sendNotif(title: title)
     }
 }

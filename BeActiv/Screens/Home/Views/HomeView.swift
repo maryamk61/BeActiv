@@ -20,23 +20,22 @@ struct HomeView: View {
             ZStack {
                 RadialGradient(colors: [Color("backgroundColorTop"), Color("backgroundColorBottom")], center: .topTrailing, startRadius: 80, endRadius: 900)
                 .ignoresSafeArea()
-                if vm.activities.count < 1 {
+                if ActivityModel.allActivities.count < 1 {
                     ProgressView()
                         .scaleEffect(CGSize(width: 1.4, height: 1.4))
                         .tint(.white)
                 }
-                if vm.activities.count > 0 {
+                if ActivityModel.allActivities.count > 0 {
                     VStack(alignment: .center) {
                         Text("Today")
                             .foregroundColor(.white)
                             .font(.title2)
                             .padding()
                             .padding(.top, 10)
-//                            .shadow(color: .gray, radius: 5)
                         
                         ScrollView {
                             LazyVGrid(columns: columns, spacing: 20) {
-                                ForEach(vm.activities, id: \.uuid) { activity in
+                                ForEach(ActivityModel.allActivities, id: \.uuid) { activity in
                                     NavigationLink {
                                         DetailsView(activity: activity)
                                     } label: {
@@ -52,7 +51,14 @@ struct HomeView: View {
                     }
                 }
             }
-            .navigationTitle("My Health Status")
+            .navigationTitle("My Activity Status")
+            .onAppear {
+                vm.activities.forEach { activity in
+                    if activity.todayValue == UserDefaults.standard.double(forKey: activity.id) {
+                        vm.sendNotification(title: activity.title)
+                    }
+                }
+            }
         }
         .accentColor(.white)
     }
@@ -63,4 +69,8 @@ struct HomeView_Previews: PreviewProvider {
         HomeView(viewModel: HomeViewModel())
             .environmentObject(HomeViewModel())
     }
+}
+
+extension Notification.Name {
+    static let goalReached = Notification.Name("goalReached")
 }

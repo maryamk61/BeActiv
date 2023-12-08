@@ -66,10 +66,10 @@ struct ActivityModel {
     
     static var allActivities: [ActivityModel] {
         return [
-            ActivityModel(id: "stepCount", todayValue: 560, todayDesc: "560 count", weeklyGoal: 700),
-            ActivityModel(id: "activeEnergyBurned", todayValue: 1015, todayDesc: "1015 kcal", weeklyGoal: 1020),
-            ActivityModel(id: "appleExerciseTime", todayValue: 25, todayDesc: "25 minutes", weeklyGoal: 50),
-            ActivityModel(id: "distanceWalkingRunning", todayValue: 2000, todayDesc: "2000 m", weeklyGoal: 6000),
+            ActivityModel(id: "stepCount", todayValue: 950, todayDesc: "950 count", weeklyGoal: 1500),
+            ActivityModel(id: "activeEnergyBurned", todayValue: 400, todayDesc: "400 kcal", weeklyGoal: 500),
+            ActivityModel(id: "appleExerciseTime", todayValue: 30, todayDesc: "30 minutes", weeklyGoal: 45),
+            ActivityModel(id: "distanceWalkingRunning", todayValue: 1.0, todayDesc: "1.0 Mile", weeklyGoal: 1.3),
             ActivityModel(id: "appleStandTime", todayValue: 128, todayDesc: "128 minutes", weeklyGoal: 200)
         ]
     }

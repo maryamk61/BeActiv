@@ -9,8 +9,6 @@ import SwiftUI
 import HealthKit
 
 struct DetailsView: View {
-    
-//    @EnvironmentObject var hkManager: HealthKitManager
     @StateObject var vm: DetailViewModel
     var activity: ActivityModel
     

@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ActivityTabView: View {
-//    @EnvironmentObject var homeViewModel: HomeViewModel
 
     var body: some View {
         TabView {
@@ -17,7 +16,6 @@ struct ActivityTabView: View {
                     .tabItem {
                         Label("Activities", systemImage: "figure.run.square.stack.fill")
                     }
-//                    .environmentObject(homeViewModel)
                 ChartsView()
                     .tabItem {
                         Label("Charts", systemImage: "chart.xyaxis.line")
