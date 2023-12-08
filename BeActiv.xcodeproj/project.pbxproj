@@ -28,7 +28,6 @@
 		5C697CF32ADD117A00C9E091 /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C697CF12ADD117A00C9E091 /* Double+Ext.swift */; };
 		5C697CF42ADD117A00C9E091 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C697CF22ADD117A00C9E091 /* Date+Ext.swift */; };
 		5CA5771A2AE3FC80001F9771 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA577192AE3FC80001F9771 /* HomeViewModel.swift */; };
-		5CA5771C2AE64A2F001F9771 /* GoalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5771B2AE64A2F001F9771 /* GoalsModel.swift */; };
 		5CA5771F2AE7A757001F9771 /* ChartsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5771E2AE7A757001F9771 /* ChartsViewModel.swift */; };
 		5CA577212AE800D0001F9771 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA577202AE800D0001F9771 /* LineChartView.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		5C697CF12ADD117A00C9E091 /* Double+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
 		5C697CF22ADD117A00C9E091 /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		5CA577192AE3FC80001F9771 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		5CA5771B2AE64A2F001F9771 /* GoalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsModel.swift; sourceTree = "<group>"; };
 		5CA5771E2AE7A757001F9771 /* ChartsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewModel.swift; sourceTree = "<group>"; };
 		5CA577202AE800D0001F9771 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,7 +211,6 @@
 				5C697CE12ADBEF4400C9E091 /* ActivityModel.swift */,
 				5C2797EF2ADD571A00308309 /* ChartModel.swift */,
 				5C2797F42ADFB99000308309 /* StatusModel.swift */,
-				5CA5771B2AE64A2F001F9771 /* GoalsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -333,7 +330,6 @@
 				5C697CE82ADC2D7300C9E091 /* ActivityTabView.swift in Sources */,
 				5C697CF32ADD117A00C9E091 /* Double+Ext.swift in Sources */,
 				5C697CE42ADC035F00C9E091 /* HomeView.swift in Sources */,
-				5CA5771C2AE64A2F001F9771 /* GoalsModel.swift in Sources */,
 				5C697CCC2ADABB6700C9E091 /* BeActivApp.swift in Sources */,
 				5C2797EE2ADD39D300308309 /* DetailsChartView.swift in Sources */,
 				5C697CE62ADC060800C9E091 /* ActivityThumbnailView.swift in Sources */,
